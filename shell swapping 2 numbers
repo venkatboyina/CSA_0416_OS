@@ -1,0 +1,9 @@
+echo "enter the number"
+read a
+echo "enter the number"
+read b
+temp=$a
+a=$b
+b=$temp
+echo "after the swapping the two numbers"
+echo $a $b
